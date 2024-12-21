@@ -66,7 +66,8 @@
   .dropdown {
     position: absolute;
     top: 100%;
-    right: 0;
+    left: 50%;
+    transform: translateX(-50%);
     display: flex;
     gap: 20px;
     background-color: #fff;
@@ -94,9 +95,10 @@
   }
   
   .dropdownColumn h4 {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: bold;
     margin-bottom: 10px;
+    text-align: center;
   }
   
   .dropdownColumn ul {
@@ -143,7 +145,6 @@
     background-color: #f04e3e;
     color: white;
   }
-  
   /* Actions */
   .actions {
     display: flex;

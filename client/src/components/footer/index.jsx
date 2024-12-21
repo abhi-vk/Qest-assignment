@@ -40,10 +40,17 @@ const Footer = () => {
           <h4>Download</h4>
           <ul>
             <li>
-              <i className={styles.icon}></i> Business App
+            <img src="https://res.cloudinary.com/dslmuge4f/image/upload/v1734796980/Qest-images/on3yus1qqkieqgkddwyc.png" className={styles.icon}/> Business App
+            </li>
+            
+            <li>
+              <img src="https://res.cloudinary.com/dslmuge4f/image/upload/v1734796724/Qest-images/lxssnkyp6y07ycj74kqb.png" className={styles.icon}/> Business App
             </li>
             <li>
-              <i className={styles.icon}></i> User App
+            <img src="https://res.cloudinary.com/dslmuge4f/image/upload/v1734796980/Qest-images/on3yus1qqkieqgkddwyc.png" className={styles.icon}/> User App
+            </li>
+            <li>
+            <img src="https://res.cloudinary.com/dslmuge4f/image/upload/v1734796724/Qest-images/lxssnkyp6y07ycj74kqb.png" className={styles.icon}/> User App
             </li>
           </ul>
         </div>
