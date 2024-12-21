@@ -1,0 +1,171 @@
+/* General Styles */
+.planSection {
+    background-color: #f9fafc;
+    padding: 60px 20px;
+    margin: 0 auto;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  /* Title and Subtitle */
+  .title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #000;
+  }
+  
+  .subtitle {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 40px;
+  }
+  
+  .highlight {
+    color: #f54f35;
+    font-weight: bold;
+  }
+  
+  /* Table Styles */
+  .tableContainer {
+    overflow-x: auto; /* Enable horizontal scrolling on small screens */
+    margin-top: 20px;
+  }
+  
+  .tableTitle {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #000;
+  }
+  
+  .planTable {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  thead th {
+    background-color: #f4f4f4;
+    padding: 15px;
+    font-size: 16px;
+    color: #333;
+    text-align: center;
+  }
+  
+  tbody tr td {
+    padding: 15px;
+    font-size: 14px;
+    color: #555;
+    text-align: center;
+    border-top: 1px solid #eee;
+  }
+  
+  .featureColumn {
+    text-align: left;
+    width: 30%;
+  }
+  
+  .planColumn {
+    text-align: center;
+    width: 35%;
+  }
+  
+  .planPrice {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .featureHeader {
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #f9f9f9;
+    padding: 15px;
+    color: #333;
+  }
+  
+  /* Buttons */
+  .getStartedButton {
+    font-size: 16px;
+    background: #FEF1EF;
+    color: #f54f35;
+    border: none;
+    font-weight: 700;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+  }
+  
+  .getStartedButton:hover {
+    background-color: #d8442d;
+    color: white;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .title {
+      font-size: 28px;
+    }
+  
+    .subtitle {
+      font-size: 16px;
+    }
+  
+    .planTable {
+      font-size: 12px;
+    }
+  
+    .featureColumn,
+    .planColumn {
+      font-size: 12px;
+    }
+  
+    .getStartedButton {
+      font-size: 14px;
+      padding: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .title {
+      font-size: 24px;
+    }
+  
+    .subtitle {
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+  
+    .planTable {
+      font-size: 12px;
+      width: 100%;
+    }
+  
+    .tableTitle {
+      font-size: 20px;
+    }
+  
+    .getStartedButton {
+      font-size: 12px;
+      padding: 8px 10px;
+      width: 100%;
+    }
+  
+    thead th,
+    tbody td {
+      padding: 10px;
+      font-size: 12px;
+    }
+  }
+  

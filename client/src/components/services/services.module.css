@@ -1,0 +1,204 @@
+.serviceSection{text-align: center;
+padding: 50px 20px;
+margin: auto 5rem;
+}
+.heading{
+margin: 5px 5rem;
+}
+.title {
+font-size: 3rem;
+font-weight: bold;
+color: #000000;
+margin-bottom: 15px;
+}
+
+.subtitle {
+font-size: 16px;
+color: #666666;
+margin-bottom: 40px;
+}
+
+.carousel {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 10px;
+position: relative;
+}
+
+.cardsContainer {
+display: flex;
+justify-content: center;
+gap: 20px;
+flex-wrap: wrap;
+width: 80%;
+}
+
+.card {
+background-color: #ffffff;
+border-radius: 10px;
+box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+overflow: hidden;
+text-align: center;
+width: 300px;
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+transform: translateY(-5px);
+box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.imageContainer {
+height: 200px;
+overflow: hidden;
+}
+
+.image {
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+.cardTitle {
+font-size: 20px;
+font-weight: bold;
+color: #000000;
+margin: 15px 0 10px;
+}
+
+.cardDescription {
+font-size: 14px;
+color: #666666;
+margin: 0 15px 20px;
+}
+
+.link {
+color: #007bff;
+text-decoration: none;
+}
+
+.link:hover {
+text-decoration: underline;
+}
+
+.arrowButton {
+background-color: #f0f0f0;
+border: none;
+border-radius: 50%;
+width: 50px;
+height: 50px;
+display: flex;
+align-items: center;
+justify-content: center;
+cursor: pointer;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.arrowButton:hover {
+background-color: #007bff;
+transform: scale(1.1);
+}
+
+.arrowIcon {
+font-size: 24px;
+color: #666666;
+}
+
+.arrowButton:hover .arrowIcon {
+color: #ffffff;
+}
+  
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .serviceSection {
+      padding: 40px 15px;
+      margin: auto;
+    }
+  
+    .title {
+      font-size: 2.5rem;
+    }
+  
+    .subtitle {
+      font-size: 14px;
+      margin: 0 2rem 30px;
+    }
+  
+    .cardsContainer {
+      width: 90%;
+      gap: 15px;
+    }
+  
+    .card {
+      width: 250px;
+    }
+  
+    .arrowButton {
+      width: 45px;
+      height: 45px;
+    }
+  
+    .arrowIcon {
+      font-size: 20px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .serviceSection {
+      padding: 30px 10px;
+    }
+  
+    .title {
+      font-size: 2rem;
+    }
+  
+    .subtitle {
+      font-size: 14px;
+      margin: 0 1.5rem 20px;
+    }
+  
+    .cardsContainer {
+      width: 100%;
+      gap: 10px;
+    }
+  
+    .card {
+      width: 220px;
+    }
+  
+    .arrowButton {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .serviceSection {
+      padding: 20px 10px;
+    }
+  
+    .title {
+      font-size: 1.8rem;
+    }
+  
+    .subtitle {
+      font-size: 12px;
+      margin: 10px 5px;
+    }
+  
+    .cardsContainer {
+      width: 100%;
+      gap: 10px;
+    }
+  
+    .card {
+      width: 100%;
+      max-width: 300px;
+    }
+  
+    .arrowButton {
+      display: none;
+    }
+  }
+  

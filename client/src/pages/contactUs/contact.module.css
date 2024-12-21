@@ -1,0 +1,273 @@
+/* General Styles */
+.contactSection {
+    padding: 40px 20px;
+    margin: auto;
+  }
+  
+  .logoInputContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    gap: 10px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: 1px solid #e5e7eb;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .logoAI {
+    font-size: 0.9rem;
+    color: black;
+    margin-right: 5px;
+  }
+  
+  .logoR {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #000000;
+  }
+  
+  .logoMax {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: rgb(158, 54, 54);
+  }
+  
+  .inputField {
+    border: 1px solid #e5e7eb;
+    padding: 10px 10px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 300px;
+    font-size: 0.9rem;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Title & Subtitle */
+  .title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #000000;
+  }
+  
+  .subtitle {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #666666;
+  }
+  
+  /* Contact Form */
+  .formContainer {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+  }
+  
+  .contactForm {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .row {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .inputGroup {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .inputGroup label {
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: #333333;
+  }
+  
+  .inputGroup input,
+  .inputGroup textarea {
+    font-size: 14px;
+    padding: 10px 15px;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    outline: none;
+    transition: all 0.3s ease;
+  }
+  
+  .inputGroup input:focus,
+  .inputGroup textarea:focus {
+    border-color: #f54f35;
+  }
+  
+  .phoneInput {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .countryCode {
+    font-size: 14px;
+    padding: 10px 15px;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    background-color: #ffffff;
+  }
+  
+  .submitButton {
+    font-size: 16px;
+    background-color: #f54f35;
+    color: #ffffff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: flex-start;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submitButton:hover {
+    background-color: #d8442d;
+  }
+  
+  /* Contact Information */
+  .contactInfo {
+    text-align: center;
+  }
+  
+  .infoTitle {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #000000;
+  }
+  
+  .infoGrid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+  }
+  
+  .infoItem {
+    text-align: center;
+    max-width: 300px;
+  }
+  
+  .infoItem h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #000000;
+  }
+  
+  .infoItem p {
+    font-size: 14px;
+    color: #666666;
+    margin-bottom: 5px;
+  }
+  
+  /* Responsive Design for Tablets */
+  @media (max-width: 1024px) {
+    .contactSection {
+      padding: 30px 15px;
+    }
+  
+    .title {
+      font-size: 2rem;
+    }
+  
+    .subtitle {
+      font-size: 16px;
+    }
+  
+    .formContainer {
+      padding: 20px;
+    }
+  
+    .row {
+      flex-direction: column;
+    }
+  
+    .submitButton {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .infoTitle {
+      font-size: 2rem;
+    }
+  
+    .infoItem h3 {
+      font-size: 16px;
+    }
+  
+    .infoItem p {
+      font-size: 12px;
+    }
+  }
+  
+  /* Responsive Design for Mobile */
+  @media (max-width: 480px) {
+    .contactSection {
+      padding: 20px 10px;
+    }
+  
+    .title {
+      font-size: 1.8rem;
+    }
+  
+    .subtitle {
+      font-size: 14px;
+    }
+  
+    .formContainer {
+      padding: 15px;
+    }
+  
+    .inputGroup label {
+      font-size: 12px;
+    }
+  
+    .inputGroup input,
+    .inputGroup textarea {
+      font-size: 12px;
+      padding: 8px 10px;
+    }
+  
+    .submitButton {
+      font-size: 14px;
+    }
+  
+    .infoTitle {
+      font-size: 1.8rem;
+    }
+  
+    .infoItem h3 {
+      font-size: 14px;
+    }
+  
+    .infoItem p {
+      font-size: 12px;
+    }
+  }
+  

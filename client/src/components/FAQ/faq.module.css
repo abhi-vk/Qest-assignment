@@ -1,0 +1,291 @@
+.faqSection {
+    text-align: center;
+    padding: 40px 20px;
+    margin: 0 auto;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 10px;
+  }
+  
+  .subtitle {
+    font-size: 16px;
+    color: #666666;
+    margin-bottom: 30px;
+  }
+  
+  .searchBar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 30px;
+    gap: 10px;
+    width: 100%;
+  }
+  
+  .searchInput {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px 15px;
+    font-size: 14px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .searchInput:focus {
+    border-color: #007bff;
+  }
+  
+  .searchButton {
+    padding: 10px 15px;
+    font-size: 14px;
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .searchButton img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .searchButton:hover {
+    background-color: #e64a19;
+  }
+  
+  .faqContainer {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .faqItem {
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    background: #f9f9f9;
+  }
+  
+  .question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    width: 100%;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+  }
+  
+  .question:hover {
+    background: #f3f3f3;
+  }
+  
+  .icon {
+    font-size: 18px;
+    color: #666666;
+  }
+  
+  .answer {
+    padding: 15px 20px;
+    font-size: 14px;
+    color: #333333;
+    background: #ffffff;
+  }
+  
+  .noResults {
+    font-size: 16px;
+    color: #666666;
+    margin-top: 20px;
+  }
+  
+  .footer {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666666;
+  }
+  
+  .link {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .faqSection {
+      padding: 20px 10px;
+    }
+  
+    .title {
+      font-size: 2rem;
+    }
+  
+    .subtitle {
+      font-size: 14px;
+    }
+  
+    .searchInput {
+      font-size: 12px;
+      padding: 8px 10px;
+    }
+  
+    .searchButton {
+      padding: 8px 10px;
+      font-size: 12px;
+    }
+  
+    .searchButton img {
+      width: 16px;
+      height: 16px;
+    }
+  
+    .faqContainer {
+      width: 100%;
+      padding: 0 10px;
+    }
+  
+    .question {
+      font-size: 14px;
+      padding: 10px 15px;
+    }
+  
+    .icon {
+      font-size: 16px;
+    }
+  
+    .answer {
+      font-size: 13px;
+      padding: 10px 15px;
+    }
+  
+    .noResults {
+      font-size: 14px;
+    }
+  
+    .footer {
+      font-size: 12px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .title {
+      font-size: 1.8rem;
+    }
+  
+    .searchInput {
+      font-size: 12px;
+      padding: 6px 8px;
+    }
+  
+    .searchButton {
+      padding: 6px 8px;
+      font-size: 10px;
+    }
+  
+    .searchButton img {
+      width: 14px;
+      height: 14px;
+    }
+  
+    .question {
+      font-size: 12px;
+      padding: 8px 10px;
+    }
+  
+    .icon {
+      font-size: 14px;
+    }
+  
+    .answer {
+      font-size: 12px;
+      padding: 8px 10px;
+    }
+  
+    .footer {
+      font-size: 10px;
+    }
+  }
+  .searchBar {
+    display: flex;
+    flex-wrap: nowrap; /* Prevent wrapping */
+    justify-content: center;
+    align-items: center; /* Align items vertically */
+    gap: 10px;
+    width: 100%;
+  }
+  
+  .searchInput {
+    flex: 1; /* Allow input to resize while keeping the button on the same line */
+    max-width: 500px;
+    padding: 10px 15px;
+    font-size: 14px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .searchButton {
+    flex-shrink: 0; /* Prevent the button from shrinking */
+    padding: 10px 15px;
+    font-size: 14px;
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .searchButton img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .searchInput {
+      font-size: 12px;
+      padding: 8px 10px;
+    }
+  
+    .searchButton {
+      padding: 8px 10px;
+      font-size: 12px;
+    }
+  
+    .searchButton img {
+      width: 16px;
+      height: 16px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .searchInput {
+      font-size: 12px;
+      padding: 6px 8px;
+    }
+  
+    .searchButton {
+      padding: 6px 8px;
+      font-size: 10px;
+    }
+  
+    .searchButton img {
+      width: 14px;
+      height: 14px;
+    }
+  }
+    

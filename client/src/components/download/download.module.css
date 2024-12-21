@@ -1,0 +1,78 @@
+.downloadSection {
+    text-align: center;
+    padding: 30px 10px;
+    max-width: 800px; 
+    margin: 0 auto; 
+  }
+  
+  .title {
+    font-size: 2.5rem; 
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 10px;
+  }
+  
+  .subtitle {
+    font-size: 16px;
+    color: #666666;
+    margin-bottom: 30px;
+    padding: 0 1rem; 
+  }
+  
+  .storeButtons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap; 
+  }
+  
+  .storeIcon {
+    cursor: pointer;
+    max-width: 150px;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+  
+  .storeIcon:hover {
+    transform: scale(1.1); 
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .title {
+      font-size: 2rem; 
+    }
+  
+    .subtitle {
+      font-size: 14px; 
+      margin-bottom: 20px;
+    }
+  
+    .storeButtons {
+      gap: 15px; 
+    }
+  
+    .storeIcon {
+      max-width: 120px; 
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .title {
+      font-size: 1.8rem; 
+    }
+  
+    .subtitle {
+      font-size: 12px; 
+      padding: 0 0.5rem; 
+    }
+  
+    .storeButtons {
+      gap: 10px; 
+    }
+  
+    .storeIcon {
+      max-width: 100px; 
+    }
+  }
+  
