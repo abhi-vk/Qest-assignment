@@ -1,5 +1,5 @@
 # Qest-assignment
-Here's a sample `README.md` tailored for a React project using Vite:
+
 
 ```markdown
 # React Vite Project
